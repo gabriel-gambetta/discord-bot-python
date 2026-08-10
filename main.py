@@ -59,7 +59,7 @@ async def on_voice_state_update(member, before, after):
             if member.id == config.USER_B_ID:
                 connection = await after.channel.connect()
 
-                audio = discord.FFmpegPCMAudio("yeehaircut.mp3", executable='ffmpeg-9.0-essentials_build/bin/ffmpeg.exe')
+                audio = discord.FFmpegPCMAudio("audioExample.mp3", executable='ffmpeg-9.0-essentials_build/bin/ffmpeg.exe')
                 audio.volume = 2.5
 
                 connection.play(audio, after=lambda error:finish_audio(error, connection))
@@ -69,7 +69,7 @@ async def on_voice_state_update(member, before, after):
                 sleep(10)
                 connection = await after.channel.connect()
 
-                audio = discord.FFmpegPCMAudio("bardou.mp3", executable='ffmpeg-9.0-essentials_build/bin/ffmpeg.exe')
+                audio = discord.FFmpegPCMAudio("audioExample2.mp3", executable='ffmpeg-9.0-essentials_build/bin/ffmpeg.exe')
                 audio.volume = 2.5
 
                 connection.play(audio, after=lambda error:finish_audio(error, connection))
