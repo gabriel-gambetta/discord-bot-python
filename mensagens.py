@@ -1,0 +1,55 @@
+userA = [
+    'MENSAGEM USER_A',
+    'MENSAGEM USER_A 2',
+    'MENSAGEM USER_A 3',
+    'MENSAGEM USER_A 4',
+    'MENSAGEM USER_A 5'
+]
+
+userB = [
+    'MENSAGEM USER_B',
+    'MENSAGEM USER_B 2',
+    'MENSAGEM USER_B 3',
+    'MENSAGEM USER_B 4',
+    'MENSAGEM USER_B 5'
+]
+
+userC = [
+    'MENSAGEM USER_C',
+    'MENSAGEM USER_C 2',
+    'MENSAGEM USER_C 3',
+    'MENSAGEM USER_C 4',
+    'MENSAGEM USER_C 5'
+]
+
+userD = [
+    'MENSAGEM USER_D',
+    'MENSAGEM USER_D 2',
+    'MENSAGEM USER_D 3',
+    'MENSAGEM USER_D 4',
+    'MENSAGEM USER_D 5'
+]
+
+userF = [
+    'MENSAGEM USER_F',
+    'MENSAGEM USER_F 2',
+    'MENSAGEM USER_F 3',
+    'MENSAGEM USER_F 4',
+    'MENSAGEM USER_F 5'
+]
+
+userG = [
+    'MENSAGEM USER_G',
+    'MENSAGEM USER_G 2',
+    'MENSAGEM USER_G 3',
+    'MENSAGEM USER_G 4',
+    'MENSAGEM USER_G 5'
+]
+
+generic = [
+    'MENSAGEM GENÉRICA',
+    'MENSAGEM GENÉRICA 2',
+    'MENSAGEM GENÉRICA 3',
+    'MENSAGEM GENÉRICA 4',
+    'MENSAGEM GENÉRICA 5'
+]
